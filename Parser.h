@@ -17,16 +17,8 @@ private:
     Predicate currPredicate; //can store one scheme or one fact or one query or one predicate of a Rule object
     Rule currRule;
     bool failed = false; //will be changed to true after the first illegal token is caught
-public:
-    Parser(): index(0){};
-    //~Parser(){}
-    string toString() const;
-    friend ostream& operator<<(ostream& os, const Parser& p){
-        return os << p.toString();
-    }
-    bool hasError() const{ return failed;}
+    /**=========================================*/
 
-    void parse(vector<Token*>& tokens);
     void parseDatalog (vector<Token*>& tokens);
 
 
@@ -51,8 +43,21 @@ public:
 
     void parseParameter(vector<Token*>& tokens);
 
-
     void matcher(Token*& input, TokenType matchType);
+    
+public:
+    Parser(): index(0){};
+    //~Parser(){}
+    string toString() const;
+    friend ostream& operator<<(ostream& os, const Parser& p){
+        return os << p.toString();
+    }
+    bool hasError() const{ return failed;}
+    DataLogProgram getProgram() const{return program;}
+
+    /**====================================================*/
+    void parse(vector<Token*>& tokens);
+
 };
 
 
