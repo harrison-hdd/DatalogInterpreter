@@ -1,5 +1,6 @@
 #include "Lexer.h"
 #include "Parser.h"
+#include "Interpreter.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -41,15 +42,13 @@ int main(int argc, char** argv) {
     }
     Parser parser;
     parser.parse(tokensNoComments);
-    if(!parser.hasError()) cout << parser;
+    //if(!parser.hasError()) cout << parser;
 
-//    Parser* parser = new Parser();
-//    parser->parse(tokensNoComments);
-//    if(!parser->hasError()) cout << *parser;
-//    delete parser;
 
-    tokens.clear();
-    tokensNoComments.clear();
+    /**start of interpreter code*/
+    Interpreter interpreter;
+    interpreter.interpret(parser.getProgram());
+
     delete lexer;
     return 0;
 }

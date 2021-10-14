@@ -15,6 +15,7 @@ public:
     //~Rule(){}
     string toString() const;
     void reset(){
+        headPredicate.reset();
         predicateList.clear();
     }
     void setHeadPredicate(Predicate newHeadPredicate){

@@ -30,6 +30,8 @@ public:
         return os << p.toString();
     }
 
+    vector<Predicate> getSchemes() const{ return schemes;}
+    vector<Predicate> getFacts() const{ return facts;}
 };
 
 

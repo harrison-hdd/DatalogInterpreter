@@ -389,6 +389,71 @@ CMakeFiles/Project2_Parser.dir/Rule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Rule.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp -o CMakeFiles/Project2_Parser.dir/Rule.cpp.s
 
+CMakeFiles/Project2_Parser.dir/Tuple.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/Tuple.cpp.o: ../Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project2_Parser.dir/Tuple.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Tuple.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.cpp
+
+CMakeFiles/Project2_Parser.dir/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Tuple.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.cpp > CMakeFiles/Project2_Parser.dir/Tuple.cpp.i
+
+CMakeFiles/Project2_Parser.dir/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Tuple.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.cpp -o CMakeFiles/Project2_Parser.dir/Tuple.cpp.s
+
+CMakeFiles/Project2_Parser.dir/Header.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/Header.cpp.o: ../Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project2_Parser.dir/Header.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Header.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.cpp
+
+CMakeFiles/Project2_Parser.dir/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Header.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.cpp > CMakeFiles/Project2_Parser.dir/Header.cpp.i
+
+CMakeFiles/Project2_Parser.dir/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Header.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.cpp -o CMakeFiles/Project2_Parser.dir/Header.cpp.s
+
+CMakeFiles/Project2_Parser.dir/Relation.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/Relation.cpp.o: ../Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project2_Parser.dir/Relation.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Relation.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp
+
+CMakeFiles/Project2_Parser.dir/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Relation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp > CMakeFiles/Project2_Parser.dir/Relation.cpp.i
+
+CMakeFiles/Project2_Parser.dir/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Relation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp -o CMakeFiles/Project2_Parser.dir/Relation.cpp.s
+
+CMakeFiles/Project2_Parser.dir/Database.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/Database.cpp.o: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Project2_Parser.dir/Database.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Database.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp
+
+CMakeFiles/Project2_Parser.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Database.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp > CMakeFiles/Project2_Parser.dir/Database.cpp.i
+
+CMakeFiles/Project2_Parser.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Database.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp -o CMakeFiles/Project2_Parser.dir/Database.cpp.s
+
+CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp
+
+CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp > CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i
+
+CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp -o CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s
+
 # Object files for target Project2_Parser
 Project2_Parser_OBJECTS = \
 "CMakeFiles/Project2_Parser.dir/main.cpp.o" \
@@ -414,7 +479,12 @@ Project2_Parser_OBJECTS = \
 "CMakeFiles/Project2_Parser.dir/Parser.cpp.o" \
 "CMakeFiles/Project2_Parser.dir/Predicate.cpp.o" \
 "CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Rule.cpp.o"
+"CMakeFiles/Project2_Parser.dir/Rule.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/Tuple.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/Header.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/Relation.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/Database.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o"
 
 # External object files for target Project2_Parser
 Project2_Parser_EXTERNAL_OBJECTS =
@@ -443,9 +513,14 @@ Project2_Parser: CMakeFiles/Project2_Parser.dir/Parser.cpp.o
 Project2_Parser: CMakeFiles/Project2_Parser.dir/Predicate.cpp.o
 Project2_Parser: CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o
 Project2_Parser: CMakeFiles/Project2_Parser.dir/Rule.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/Tuple.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/Header.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/Relation.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/Database.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o
 Project2_Parser: CMakeFiles/Project2_Parser.dir/build.make
 Project2_Parser: CMakeFiles/Project2_Parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable Project2_Parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Project2_Parser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project2_Parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

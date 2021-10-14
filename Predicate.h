@@ -23,12 +23,15 @@ public:
     }
     void reset(){
         parameters.clear();
+        ID.clear();
     }
     vector<Parameter>& getParameters() const {return parameters;}
 
     friend ostream& operator<<(ostream& os, const Predicate& p){
         return os << p.toString();
     }
+    string getID() const {return ID;}
+
 };
 
 

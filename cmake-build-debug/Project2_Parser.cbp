@@ -116,16 +116,34 @@
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.h">
+			<Option target="Project2_Parser"/>
+		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.cpp">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.h">
+			<Option target="Project2_Parser"/>
+		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.h">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp">
@@ -185,6 +203,12 @@
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.h">
+			<Option target="Project2_Parser"/>
+		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
@@ -219,6 +243,12 @@
 			<Option target="Project2_Parser"/>
 		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.h">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.cpp">
+			<Option target="Project2_Parser"/>
+		</Unit>
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
 		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp">

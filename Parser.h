@@ -5,22 +5,22 @@
 #ifndef PROJECT2_PARSER_PARSER_H
 #define PROJECT2_PARSER_PARSER_H
 #include "Token.h"
-#include "iostream"
+#include <iostream>
 #include <vector>
 #include "DataLogProgram.h"
 using namespace std;
 
-class Parser {
+
+class Parser{
 private:
     long unsigned int index;
     DataLogProgram program;
     Predicate currPredicate; //can store one scheme or one fact or one query or one predicate of a Rule object
     Rule currRule;
     bool failed = false; //will be changed to true after the first illegal token is caught
+
     /**=========================================*/
-
     void parseDatalog (vector<Token*>& tokens);
-
 
     void parseScheme(vector<Token*>& tokens);
     void parseSchemeList(vector<Token*>& tokens);
@@ -31,12 +31,10 @@ private:
     void parseQuery(vector<Token*>& tokens);
     void parseQueryList(vector<Token*>& tokens);
 
-
     void parseIDList(vector<Token*>& tokens);
     void parseStringList(vector<Token*>& tokens);
     void parseParameterList(vector<Token*>& tokens);
     void parsePredicateList(vector<Token*>& tokens);
-
 
     void parsePredicate(vector<Token*>& tokens);
     void parseHeadPredicate(vector<Token*>& tokens);
@@ -44,7 +42,7 @@ private:
     void parseParameter(vector<Token*>& tokens);
 
     void matcher(Token*& input, TokenType matchType);
-    
+
 public:
     Parser(): index(0){};
     //~Parser(){}
@@ -52,12 +50,10 @@ public:
     friend ostream& operator<<(ostream& os, const Parser& p){
         return os << p.toString();
     }
-    bool hasError() const{ return failed;}
-    DataLogProgram getProgram() const{return program;}
+    bool hasError() const{ return failed; }
+    DataLogProgram getProgram() const{ return program; }
 
-    /**====================================================*/
     void parse(vector<Token*>& tokens);
-
 };
 
 
