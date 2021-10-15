@@ -5,7 +5,7 @@
 #include "Interpreter.h"
 void Interpreter::interpret(const DataLogProgram& program) {
     databaseBuilder(program.getSchemes(), program.getFacts());
-
+    queryHandler(program.getQueries());
 }
 
 void Interpreter::databaseBuilder(const vector<Predicate>& schemes, const vector<Predicate>& facts){
@@ -39,11 +39,29 @@ void Interpreter::databaseBuilder(const vector<Predicate>& schemes, const vector
         for(auto j = 0; j < parameters.size(); ++j){
             tuple.addValue(parameters.at(j).toString());
         }
-        database.addFacts(ID, tuple);
+        database.addFact(ID, tuple);
     }
 }
 
 void Interpreter::queryHandler(const vector<Predicate>& queries){
-
+    for(auto i = 0; i < queries.size(); ++i){
+        cout << queries.at(i) << "?" << endl;
+        queryEvaluator(queries.at(i));
+    }
 }
+Relation* Interpreter::queryEvaluator(const Predicate &query) {
+    string ID = query.getID();
+    Relation relation = database.getRelationByName(ID);
+    vector<Parameter> parameters = query.getParameters();
+    for(auto i = 0; i < parameters.size(); ++i){
+        if(parameters.at(i).toString().at(0) == '\''){ //if the parameter is a string, i.e., starting with '
+            relation = relation.select(i, parameters.at(i).toString());
+        }
+        else{
+
+        }
+    }
+    return &relation;
+}
+
 

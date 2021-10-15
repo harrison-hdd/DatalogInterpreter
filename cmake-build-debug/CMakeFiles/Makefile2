@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser
+CMAKE_SOURCE_DIR = "/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/Project2_Parser.dir/clean
 CMakeFiles/Project2_Parser.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project2_Parser.dir/build.make CMakeFiles/Project2_Parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project2_Parser.dir/build.make CMakeFiles/Project2_Parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target Project2_Parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target Project2_Parser"
 .PHONY : CMakeFiles/Project2_Parser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project2_Parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles" 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Project2_Parser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Project2_Parser.dir/rule
 
 # Convenience name for target.

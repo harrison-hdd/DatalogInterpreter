@@ -17,6 +17,11 @@ public:
 
     void addTuple(const Tuple& tuple){ relation.insert(tuple); }
 
+
+
+    Relation select(long unsigned int attributeIndex, string value);
+    Relation* project();
+    void rename();
 };
 
 

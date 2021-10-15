@@ -16,7 +16,7 @@ public:
         database.insert(pair<string, Relation>(name, relation));
     }
 
-    void addFacts(const string& name, const Tuple& tuple){
+    void addFact(const string& name, const Tuple& tuple){
         for(auto i = database.begin(); i != database.end(); ++i){
             if((*i).first == name){
                 (*i).second.addTuple(tuple);
@@ -25,7 +25,11 @@ public:
         }
     }
 
-
+    Relation getRelationByName(const string& name){
+        for(auto i = database.begin(); i != database.end(); ++i){
+            if((*i).first == name) return (*i).second;
+        }
+    }
 };
 
 
