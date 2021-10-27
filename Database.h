@@ -6,6 +6,7 @@
 #define PROJECT2_PARSER_DATABASE_H
 #include "Relation.h"
 #include <map>
+#include <iostream>
 class Database {
 private:
     map<string, Relation> database;
@@ -26,9 +27,18 @@ public:
     }
 
     Relation getRelationByName(const string& name){
-        for(auto i = database.begin(); i != database.end(); ++i){
-            if((*i).first == name) return (*i).second;
+        for (auto i = database.begin(); i != database.end(); ++i) {
+                if ((*i).first == name) return (*i).second;
         }
+        throw "";
+    }
+
+    /**check if a scheme with the same name is in database*/
+    bool isInDatabase(const string& name){
+        for (auto i = database.begin(); i != database.end(); ++i) {
+            if ((*i).first == name) return true;
+        }
+        return false;
     }
 };
 

@@ -14,10 +14,21 @@ private:
     vector<string> attributes;
 public:
     //Header(const vector<string>& attributes): attributes(attributes){}
-    void addAttribute(string newAttribute){
+    void addAttribute(const string& newAttribute){
         attributes.push_back(newAttribute);
     }
 
+    void changeAttributeName(const long unsigned int& attributeIndex, string value){
+        attributes.at(attributeIndex) = value;
+    }
+
+    string at(long unsigned int i) const{
+        return attributes.at(i);
+    }
+
+    long unsigned int size() const{ return attributes.size();}
+
+    bool empty() const{ return attributes.empty(); }
 };
 
 

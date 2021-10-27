@@ -15,6 +15,7 @@ public:
     Predicate(string ID): ID(ID){}
     //~Predicate(){}
     string toString() const;
+
     void setID(string ID){
         this->ID = ID;
     }
@@ -25,7 +26,7 @@ public:
         parameters.clear();
         ID.clear();
     }
-    vector<Parameter>& getParameters() const {return parameters;}
+    vector<Parameter>& getParameters() const { return parameters; }
 
     friend ostream& operator<<(ostream& os, const Predicate& p){
         return os << p.toString();

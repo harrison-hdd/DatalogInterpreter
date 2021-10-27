@@ -30,7 +30,6 @@ private:
 
     void CreateAutomata();
 
-    // TODO: add any other private methods here (if needed)
 
 public:
     Lexer();
@@ -41,7 +40,7 @@ public:
     friend ostream& operator<<(ostream& os, Lexer*& l){
         return os << l->toString();
     }
-    vector<Token*> getTokenList(){return tokens;}
+    vector<Token*> getTokenList() const {return tokens;}
 
 };
 

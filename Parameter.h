@@ -12,15 +12,22 @@ using namespace std;
 class Parameter{
 private:
     string parameter;
+    bool isConst;
 public:
     Parameter(){}
-    Parameter(string parameter): parameter(parameter){}
+    Parameter(string parameter): parameter(parameter){
+        if(parameter.at(0) == '\'') isConst = true;
+        else isConst = false;
+    }
     //~Parameter(){}
     string toString() const{
         return parameter;
     }
     friend ostream& operator<<(ostream& os, const Parameter& p){
         return os << p.toString();
+    }
+    bool isConstant(){
+        return isConst;
     }
 };
 

@@ -19,6 +19,10 @@ public:
     void addValue(string value){
         values.push_back(value);
     }
+
+    string at(long unsigned int index) const{
+        return values.at(index);
+    }
 };
 
 

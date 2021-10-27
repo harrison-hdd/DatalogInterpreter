@@ -8,251 +8,245 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
+				<Option working_dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
+				<Option working_dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
+				<Option working_dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2_Parser">
-				<Option output="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Project2_Parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
+				<Option output="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Project2_Parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_Parser"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_Parser"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2_Parser/fast">
-				<Option output="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Project2_Parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
+				<Option output="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Project2_Parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_Parser/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hd/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_Parser/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Header.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parameter.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parameter.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.h">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.h">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.cpp">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp">
 			<Option target="Project2_Parser"/>
 		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Tuple.h">
-			<Option target="Project2_Parser"/>
-		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp">
-			<Option target="Project2_Parser"/>
-		</Unit>
-		<Unit filename="/Users/hd/Library/Mobile Documents/com~apple~CloudDocs/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CMakeLists.txt">
+		<Unit filename="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
