@@ -4,7 +4,7 @@
 
 #ifndef PROJECT2_PARSER_PARSER_H
 #define PROJECT2_PARSER_PARSER_H
-#include "Token.h"
+#include "../1_Lexer/Automata/Token.h"
 #include <iostream>
 #include <vector>
 #include "DataLogProgram.h"
@@ -45,7 +45,7 @@ private:
 
 public:
     Parser(): index(0){};
-    //~Parser(){}
+    //~2_Parser(){}
     string toString() const;
     friend ostream& operator<<(ostream& os, const Parser& p){
         return os << p.toString();

@@ -1,6 +1,6 @@
-#include "Lexer.h"
-#include "Parser.h"
-#include "Interpreter.h"
+#include "1_Lexer/Lexer.h"
+#include "2_Parser/Parser.h"
+#include "3_Interpreter/Interpreter.h"
 #include <iostream>
 #include <fstream>
 #include <string>

@@ -10,6 +10,7 @@
 class Database {
 private:
     map<string, Relation> database;
+    long unsigned int numTuples = 0;
 public:
     Database(){}
 
@@ -17,29 +18,40 @@ public:
         database.insert(pair<string, Relation>(name, relation));
     }
 
+
     void addFact(const string& name, const Tuple& tuple){
         for(auto i = database.begin(); i != database.end(); ++i){
             if((*i).first == name){
-                (*i).second.addTuple(tuple);
-                break;
+                if((*i).second.addTuple(tuple)) {
+                    ++numTuples;
+                    break;
+                }
             }
         }
     }
 
-    Relation getRelationByName(const string& name){
+    Relation* getRelationByName (const string& name){
         for (auto i = database.begin(); i != database.end(); ++i) {
-                if ((*i).first == name) return (*i).second;
+                if ((*i).first == name) return &(*i).second;
         }
+
         throw "";
     }
 
     /**check if a scheme with the same name is in database*/
-    bool isInDatabase(const string& name){
+    bool isInDatabase(const string& name) const {
         for (auto i = database.begin(); i != database.end(); ++i) {
             if ((*i).first == name) return true;
         }
         return false;
     }
+
+    void updateNumTuples(long unsigned numNewTuples){ numTuples += numNewTuples; }
+
+    long unsigned int getNumTuples() const{ return numTuples; }
+
+
+
 };
 
 

@@ -10,12 +10,21 @@ using namespace std;
 
 class Tuple {
 private:
+
     vector<string> values;
+
 public:
+
+    Tuple(){}
+
+    Tuple(const Tuple& t){ *this = t; }
 
     bool operator<(const Tuple& rhs) const{
         return (*this).values < rhs.values;
     }
+
+    long unsigned int size() const{ return values.size(); }
+
     void addValue(string value){
         values.push_back(value);
     }

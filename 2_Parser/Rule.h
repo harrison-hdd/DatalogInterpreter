@@ -24,6 +24,9 @@ public:
     void addPredicate(Predicate newPredicate){
         predicateList.push_back(newPredicate);
     }
+    Predicate getHeadPredicate() const {return headPredicate;}
+
+    vector<Predicate> getPredicateList() const { return predicateList; }
 
     friend ostream& operator<<(ostream& os, const Rule& r){
         return os << r.toString();

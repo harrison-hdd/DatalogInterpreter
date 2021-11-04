@@ -32,6 +32,7 @@ public:
 
     vector<Predicate> getSchemes() const{ return schemes; }
     vector<Predicate> getFacts() const{ return facts; }
+    vector<Rule> getRules() const{ return rules; }
     vector<Predicate> getQueries() const{ return queries; }
 };
 

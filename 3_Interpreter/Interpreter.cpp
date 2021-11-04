@@ -4,9 +4,9 @@
 
 #include "Interpreter.h"
 
-
 void Interpreter::interpret(const DataLogProgram& program) {
     buildDatabase(program.getSchemes(), program.getFacts());
+    evaluateRules(program.getRules());
     evaluateQueries(program.getQueries());
 }
 
@@ -27,7 +27,7 @@ void Interpreter::buildDatabase(const vector<Predicate>& schemes, const vector<P
         }
 
         Relation relation(ID, header);//create new empty relation using ID and header
-        database.addNewPair(ID, relation); //add the relation above to data base
+        database.addNewPair(ID, relation); //add the relation above to database
     }
 
     /**the second for loop populates relations created above
@@ -45,9 +45,11 @@ void Interpreter::buildDatabase(const vector<Predicate>& schemes, const vector<P
         }
         database.addFact(ID, tuple);
     }
+
 }
 
 void Interpreter::evaluateQueries(const vector<Predicate> &queries) {
+    cout << "Query Evaluation\n";
     for(long unsigned int i = 0; i < queries.size(); ++i){
         cout << queries.at(i) << "? ";
 
@@ -58,7 +60,7 @@ void Interpreter::evaluateQueries(const vector<Predicate> &queries) {
             Relation *relation = queryEvaluator(queries.at(i));
             if (relation->empty()) cout << "No\n";
             else {
-                cout << "Yes(" << relation->numTuple() << ")\n";
+                cout << "Yes(" << relation->numTuples() << ")\n";
                 if (!relation->getHeader().empty()) cout << *relation;// if relation has more than 0 column
             }
             delete relation;
@@ -66,10 +68,74 @@ void Interpreter::evaluateQueries(const vector<Predicate> &queries) {
     }
 }
 
+void Interpreter::evaluateRules(const vector<Rule> &rules) {
+    cout << "Rule Evaluation\n";
+    long unsigned int oldNumTuples;
+    long unsigned int numPasses = 0; //number of passes through all the rules till the fixed point
+
+    do{
+        ++numPasses;
+
+        oldNumTuples = database.getNumTuples();
+
+        for (long unsigned int i = 0; i < rules.size(); ++i){
+
+            Relation* relation = ruleEvaluator(rules.at(i));
+            cout << rules.at(i) << endl;
+            //Relation* oldRelation = relation;
+            Predicate headPredicate = rules.at(i).getHeadPredicate();
+            Relation* existingRelation = database.getRelationByName(headPredicate.getID());
+            relation->changeHeader(existingRelation->getHeader());
+            long unsigned int numNewTuples = relation->unionizeRelations(relation, existingRelation);
+            database.updateNumTuples(numNewTuples);
+
+            delete relation;
+        }
+    }while(database.getNumTuples() - oldNumTuples > 0);
+
+    cout << endl
+         << "Schemes populated after " << numPasses << " passes through the Rules."
+         << endl
+         << endl;
+}
+
+Relation* Interpreter::ruleEvaluator(const Rule &rule) {
+    Predicate headPredicate = rule.getHeadPredicate();
+    vector<Predicate> predicateList = rule.getPredicateList();
+    Relation* result = queryEvaluator(predicateList.at(0));
+    Relation* oldResult = result;
+
+    for(long unsigned int i = 1; i < predicateList.size(); ++i){
+        Relation* currRelation = queryEvaluator(predicateList.at(i));
+        result = result->naturalJoin(result, currRelation);
+        delete oldResult;
+        oldResult = nullptr;
+        oldResult = result;
+    }
+
+    pair<vector<string>,vector<long unsigned int>> variableFirstInstances;
+
+    for(long unsigned int i = 0; i < headPredicate.getParameters().size(); ++i){
+        string currHeadPredicateVariable = headPredicate.getParameters().at(i).toString();
+        for(long unsigned int j = 0; j < result->getHeader().size(); ++j){
+            string currResultVariable = result->getHeader().at(j);
+            if(currHeadPredicateVariable == currResultVariable) {
+                variableFirstInstanceTracker(currResultVariable, j, variableFirstInstances);
+                break;
+            }
+        }
+    }
+
+    result = result->project(variableFirstInstances.second, result);
+    result->changeName(headPredicate.getID()); //change name of the relation to the ID of headPredicate
+    delete oldResult;
+
+    return result;
+}
+
 Relation* Interpreter::queryEvaluator(const Predicate &query) {
     string ID = query.getID();
-
-    Relation* relation = new Relation(database.getRelationByName(ID));
+    Relation* relation = new Relation(*(database.getRelationByName(ID)));
 
     Relation* oldRelation = relation;
 
@@ -88,6 +154,7 @@ Relation* Interpreter::queryEvaluator(const Predicate &query) {
     pair<vector<string>,vector<long unsigned int>> variableFirstInstances; // to be passed into Relation::project
 
     for(long unsigned int i = 0; i < parameters.size(); ++i){
+
         /**if the parameter is a constant (i.e. a STRING token)*/
         if(parameters.at(i).isConstant()){
 
@@ -132,7 +199,7 @@ void Interpreter::variableTracker(const string& variable,
                                   const long unsigned int& index ,
                                   vector<pair<string,vector<long unsigned int>>>& variableInstances){
 
-    for(long unsigned int i = 0; i < variableInstances.size(); ++i){//iterate thru the big vector out side
+    for(long unsigned int i = 0; i < variableInstances.size(); ++i){//iterate through the big vector
         if(variableInstances.at(i).first == variable){//if variable already exist
             variableInstances.at(i).second.push_back(index); //add new index where it appears to its corresponding vector
             return;

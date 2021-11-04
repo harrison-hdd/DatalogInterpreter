@@ -8,12 +8,24 @@
 #include "Tuple.h"
 #include <set>
 #include <sstream>
+#include <iostream>
 class Relation {
 private:
 
     string name;
     Header header;
     set<Tuple> tupleSet;
+
+    Tuple naturalJoinHelper_joinTuples(const Tuple& t_A, const Tuple& t_B,
+                                       pair<vector<long unsigned int>,vector<long unsigned int>>& matchedIndexes);
+
+    Header naturalJoinHelper_joinHeaders(const Header& h_A, const Header h_B,
+                                         pair<vector<long unsigned int>,vector<long unsigned int>>& matchedIndexes);
+
+    bool naturalJoinHelper_checkIfTuplesAreJoinable(const Tuple& t_A, const Tuple& t_B,
+                                              pair<vector<long unsigned int>,vector<long unsigned int>>& matchedIndexes);
+
+    string unionizeRelationsHelper_newTupleString(const Header& header, const Tuple& tuple);
 public:
     Relation(){}
     Relation(string name): name(name){}
@@ -28,18 +40,22 @@ public:
         return os << r.toString();
     }
 
+    void changeName(const string& name){ this->name = name; }
+    void changeHeader(const Header& header){ this->header = header; }
 
-    long unsigned int numTuple() const{return tupleSet.size();}
+    long unsigned int numTuples() const{return tupleSet.size();}
 
     Header getHeader() const {return header;}
     string getName() const {return name;}
 
-    void addTuple(const Tuple& tuple){ tupleSet.insert(tuple); }
+    bool addTuple(const Tuple& tuple){ return tupleSet.insert(tuple).second; }
 
     Relation* select(const long unsigned int& attributeIndex, const string& value, Relation* inputRelation);
     Relation* select(const vector<pair<string,vector<long unsigned int>>>& variableInstances, Relation* inputRelation);
     Relation* project(const vector<long unsigned int>& attributeIndexes, Relation* inputRelation);
     Relation* rename(const long unsigned int& attributeIndex, const string& value, Relation* inputRelation);
+    Relation* naturalJoin(Relation* A, Relation* B);
+    long unsigned int unionizeRelations(Relation* newRelation, Relation* existingRelation);
 
 };
 

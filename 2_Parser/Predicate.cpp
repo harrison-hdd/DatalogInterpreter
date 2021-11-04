@@ -5,7 +5,9 @@
 #include "Predicate.h"
 string Predicate::toString() const{
     ostringstream ss;
+
     ss << ID << "(";
+
     for(long unsigned int i = 0; i < parameters.size(); ++i){
         ss << parameters.at(i);
         if(i == parameters.size() - 1){
@@ -14,5 +16,6 @@ string Predicate::toString() const{
         }
         ss << ",";
     }
+
     return ss.str();
 }

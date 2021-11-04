@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser
+# Install script for directory: /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

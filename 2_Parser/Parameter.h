@@ -12,13 +12,9 @@ using namespace std;
 class Parameter{
 private:
     string parameter;
-    bool isConst;
 public:
     Parameter(){}
-    Parameter(string parameter): parameter(parameter){
-        if(parameter.at(0) == '\'') isConst = true;
-        else isConst = false;
-    }
+    Parameter(string parameter): parameter(parameter){}
     //~Parameter(){}
     string toString() const{
         return parameter;
@@ -27,7 +23,8 @@ public:
         return os << p.toString();
     }
     bool isConstant(){
-        return isConst;
+        if(parameter.at(0) == '\'') return true;
+        return false;
     }
 };
 

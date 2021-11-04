@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser
+CMAKE_SOURCE_DIR = "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project2_Parser.dir/depend.make
@@ -68,418 +68,418 @@ include CMakeFiles/Project2_Parser.dir/flags.make
 
 CMakeFiles/Project2_Parser.dir/main.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
 CMakeFiles/Project2_Parser.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project2_Parser.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/main.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project2_Parser.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/main.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/main.cpp"
 
 CMakeFiles/Project2_Parser.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp > CMakeFiles/Project2_Parser.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/main.cpp" > CMakeFiles/Project2_Parser.dir/main.cpp.i
 
 CMakeFiles/Project2_Parser.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/main.cpp -o CMakeFiles/Project2_Parser.dir/main.cpp.s
-
-CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.cpp > CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.cpp > CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/ColonDashAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Lexer.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project2_Parser.dir/Lexer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Lexer.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.cpp
-
-CMakeFiles/Project2_Parser.dir/Lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Lexer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.cpp > CMakeFiles/Project2_Parser.dir/Lexer.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Lexer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Lexer.cpp -o CMakeFiles/Project2_Parser.dir/Lexer.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Token.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project2_Parser.dir/Token.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Token.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.cpp
-
-CMakeFiles/Project2_Parser.dir/Token.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Token.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.cpp > CMakeFiles/Project2_Parser.dir/Token.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Token.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Token.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Token.cpp -o CMakeFiles/Project2_Parser.dir/Token.cpp.s
-
-CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o: ../LineCommentAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.cpp > CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LineCommentAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o: ../BlockCommentAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.cpp > CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/BlockCommentAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.cpp > CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/SchemesAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp > CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/FactsAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.cpp > CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/QueriesAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.cpp > CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RulesAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.cpp > CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/StringAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp > CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/IDAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.cpp > CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/PeriodAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o: ../Q_MarkAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.cpp > CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Q_MarkAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.cpp > CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/MultiplyAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o: ../AddAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.cpp > CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/AddAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o: ../LeftParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp > CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/LeftParenAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o: ../RightParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp > CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/RightParenAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.cpp
-
-CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.cpp > CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.i
-
-CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/CommaAutomaton.cpp -o CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Parser.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project2_Parser.dir/Parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Parser.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.cpp
-
-CMakeFiles/Project2_Parser.dir/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.cpp > CMakeFiles/Project2_Parser.dir/Parser.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Parser.cpp -o CMakeFiles/Project2_Parser.dir/Parser.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Predicate.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Predicate.cpp.o: ../Predicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project2_Parser.dir/Predicate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Predicate.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.cpp
-
-CMakeFiles/Project2_Parser.dir/Predicate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Predicate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.cpp > CMakeFiles/Project2_Parser.dir/Predicate.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Predicate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Predicate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Predicate.cpp -o CMakeFiles/Project2_Parser.dir/Predicate.cpp.s
-
-CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o: ../DataLogProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.cpp
-
-CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.cpp > CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.i
-
-CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/DataLogProgram.cpp -o CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Rule.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Rule.cpp.o: ../Rule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project2_Parser.dir/Rule.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Rule.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp
-
-CMakeFiles/Project2_Parser.dir/Rule.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Rule.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp > CMakeFiles/Project2_Parser.dir/Rule.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Rule.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Rule.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Rule.cpp -o CMakeFiles/Project2_Parser.dir/Rule.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Relation.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Relation.cpp.o: ../Relation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project2_Parser.dir/Relation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Relation.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp
-
-CMakeFiles/Project2_Parser.dir/Relation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Relation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp > CMakeFiles/Project2_Parser.dir/Relation.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Relation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Relation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Relation.cpp -o CMakeFiles/Project2_Parser.dir/Relation.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Database.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Database.cpp.o: ../Database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project2_Parser.dir/Database.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Database.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp
-
-CMakeFiles/Project2_Parser.dir/Database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Database.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp > CMakeFiles/Project2_Parser.dir/Database.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Database.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Database.cpp -o CMakeFiles/Project2_Parser.dir/Database.cpp.s
-
-CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
-CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o: ../Interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o -c /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp
-
-CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp > CMakeFiles/Project2_Parser.dir/Interpreter.cpp.i
-
-CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/Interpreter.cpp -o CMakeFiles/Project2_Parser.dir/Interpreter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/main.cpp" -o CMakeFiles/Project2_Parser.dir/main.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o: ../1_Lexer/Automata/ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o: ../1_Lexer/Automata/ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonDashAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonDashAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/ColonDashAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o: ../1_Lexer/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Lexer.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Lexer.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Lexer.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o: ../1_Lexer/Automata/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Token.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Token.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Token.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o: ../1_Lexer/Automata/LineCommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LineCommentAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LineCommentAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LineCommentAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o: ../1_Lexer/Automata/BlockCommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/BlockCommentAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/BlockCommentAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/BlockCommentAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o: ../1_Lexer/Automata/SchemesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/SchemesAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/SchemesAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/SchemesAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o: ../1_Lexer/Automata/FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/FactsAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/FactsAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/FactsAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o: ../1_Lexer/Automata/QueriesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/QueriesAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/QueriesAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/QueriesAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o: ../1_Lexer/Automata/RulesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RulesAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RulesAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RulesAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o: ../1_Lexer/Automata/StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/StringAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/StringAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/StringAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o: ../1_Lexer/Automata/IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/IDAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/IDAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/IDAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o: ../1_Lexer/Automata/PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/PeriodAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/PeriodAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/PeriodAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o: ../1_Lexer/Automata/Q_MarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Q_MarkAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Q_MarkAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/Q_MarkAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o: ../1_Lexer/Automata/MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/MultiplyAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/MultiplyAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/MultiplyAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o: ../1_Lexer/Automata/AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/AddAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/AddAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/AddAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o: ../1_Lexer/Automata/LeftParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LeftParenAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LeftParenAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/LeftParenAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o: ../1_Lexer/Automata/RightParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RightParenAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RightParenAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/RightParenAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o: ../1_Lexer/Automata/CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/CommaAutomaton.cpp"
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/CommaAutomaton.cpp" > CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.i
+
+CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/1_Lexer/Automata/CommaAutomaton.cpp" -o CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.s
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o: ../2_Parser/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Parser.cpp"
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Parser.cpp" > CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.i
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Parser.cpp" -o CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.s
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o: ../2_Parser/Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Predicate.cpp"
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Predicate.cpp" > CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.i
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Predicate.cpp" -o CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.s
+
+CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o: ../2_Parser/DataLogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/DataLogProgram.cpp"
+
+CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/DataLogProgram.cpp" > CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.i
+
+CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/DataLogProgram.cpp" -o CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.s
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o: ../2_Parser/Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Rule.cpp"
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Rule.cpp" > CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.i
+
+CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/2_Parser/Rule.cpp" -o CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.s
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o: ../3_Interpreter/Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Relation.cpp"
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Relation.cpp" > CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.i
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Relation.cpp" -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.s
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o: ../3_Interpreter/Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Database.cpp"
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Database.cpp" > CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.i
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Database.cpp" -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.s
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o: CMakeFiles/Project2_Parser.dir/flags.make
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o: ../3_Interpreter/Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o -c "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Interpreter.cpp"
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Interpreter.cpp" > CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.i
+
+CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/3_Interpreter/Interpreter.cpp" -o CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.s
 
 # Object files for target Project2_Parser
 Project2_Parser_OBJECTS = \
 "CMakeFiles/Project2_Parser.dir/main.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Lexer.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Token.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Parser.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Predicate.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Rule.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Relation.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Database.cpp.o" \
-"CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o"
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o" \
+"CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o"
 
 # External object files for target Project2_Parser
 Project2_Parser_EXTERNAL_OBJECTS =
 
 Project2_Parser: CMakeFiles/Project2_Parser.dir/main.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/ColonAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/ColonDashAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Lexer.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Token.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/LineCommentAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/BlockCommentAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/SchemesAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/FactsAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/QueriesAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/RulesAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/StringAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/IDAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/PeriodAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Q_MarkAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/MultiplyAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/AddAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/LeftParenAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/RightParenAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/CommaAutomaton.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Parser.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Predicate.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/DataLogProgram.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Rule.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Relation.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Database.cpp.o
-Project2_Parser: CMakeFiles/Project2_Parser.dir/Interpreter.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/ColonDashAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Lexer.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Token.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LineCommentAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/BlockCommentAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/SchemesAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/FactsAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/QueriesAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RulesAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/StringAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/IDAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/PeriodAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/Q_MarkAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/MultiplyAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/AddAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/LeftParenAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/RightParenAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/1_Lexer/Automata/CommaAutomaton.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/2_Parser/Parser.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/2_Parser/Predicate.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/2_Parser/DataLogProgram.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/2_Parser/Rule.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/3_Interpreter/Relation.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/3_Interpreter/Database.cpp.o
+Project2_Parser: CMakeFiles/Project2_Parser.dir/3_Interpreter/Interpreter.cpp.o
 Project2_Parser: CMakeFiles/Project2_Parser.dir/build.make
 Project2_Parser: CMakeFiles/Project2_Parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Project2_Parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Project2_Parser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project2_Parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -491,6 +491,6 @@ CMakeFiles/Project2_Parser.dir/clean:
 .PHONY : CMakeFiles/Project2_Parser.dir/clean
 
 CMakeFiles/Project2_Parser.dir/depend:
-	cd /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug /Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser/cmake-build-debug/CMakeFiles/Project2_Parser.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy" "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy" "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug" "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug" "/Users/hoando/Desktop/BYU-F2021/CS236/Projects/Project2_Parser copy/cmake-build-debug/CMakeFiles/Project2_Parser.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Project2_Parser.dir/depend
 
